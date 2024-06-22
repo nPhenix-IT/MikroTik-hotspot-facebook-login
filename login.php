@@ -54,7 +54,7 @@
     } else if (response.status === 'not_authorized') {
        alert('ไม่สามารถเข้าสู่ระบบได้');
     } else {
-      //alert('ไม่สามารถเข้าสู่ระบบได้');
+      //alert('Unable to log in');
     }
   }
 
@@ -98,7 +98,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 
-  // login ไดเส่งไปลง mikrotik
+  // login sent to mikrotik
   function addmt() {
     FB.api('/me?locale=en_US&fields=name,id', function(response) {
       console.log('Successful login for: ' + response.name);
@@ -209,7 +209,7 @@
 	        <div class="row">
 	          <div class="input-field col s12 center">
 	            <img src="img/rapi.png" alt="" class="responsive-img valign profile-image-login">
-	            <p class="center login-form-text">rapi - เข้าใช้งานอินเตอร์เน็ต</p>
+	            <p class="center login-form-text"> access the internet</p>
 	          </div>
 	        </div>
 
@@ -217,25 +217,25 @@
 	          <div class="input-field col s12">
 	            <i class="mdi-social-person-outline prefix"></i>
 	            <input id="username" name="username" type="text" />
-	            <label for="username" class="center-align">ชื่อผู้ใช้งาน</label>
+	            <label for="username" class="center-align">Username</label>
 	          </div>
 	        </div>
 	        <div class="row margin">
 	          <div class="input-field col s12">
 	            <i class="mdi-action-lock-outline prefix"></i>
 	            <input id="password" name="password" type="password"/>
-	            <label for="password">รหัสผ่าน</label>
+	            <label for="password">password</label>
 	          </div>
 	        </div>
 	        <div class="row">
 	          <div class="input-field col s12">
-	            <a href="#" id="loginmt" onclick="mylogin()" class="btn waves-effect waves-light col s12 btngame">เข้าใช้งาน</a>
-				<a href="#" class="btn waves-effect waves-light  indigo darken-2 col s12 btngame" onclick="checkLoginState();">เข้าใช้งานด้วย Facebook</a>
+	            <a href="#" id="loginmt" onclick="mylogin()" class="btn waves-effect waves-light col s12 btngame">Access</a>
+				<a href="#" class="btn waves-effect waves-light  indigo darken-2 col s12 btngame" onclick="checkLoginState();">Log in with Facebook</a>
 	          </div>
 	        </div>
 	        <div class="row">
 	          <div class="input-field col s12">
-	            <p class="margin medium-small"><a href="<?php echo 'register.php?actionlike='.$linkloginonly; ?>">สมัครใช้งานอินเตอร์เน็ต!</a></p>
+	            <p class="margin medium-small"><a href="<?php echo 'register.php?actionlike='.$linkloginonly; ?>">Apply for internet use!</a></p>
 	          </div>      
 	        </div>
 
