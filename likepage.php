@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>RAPI</title>
+<title>PhenixIT</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="pragma" content="no-cache" />
 <meta http-equiv="expires" content="-1" />
@@ -78,11 +78,11 @@
 <div class="col s6">
   	<div class="box-like">
       <div class="box-like-h">RAPI</div>
-      <p>ให้บริการ Internet, ระบบจัดการใช้งาน, และออกแบบระบบ Internet ภายในอาคาร </p>           
+      <p>Providing internet service, management system, and interior internet system design </p>           
 	</div>
 </div>
 <div class="col s6">
-	<div class="fb-like" data-href="https://www.facebook.com/BuriramUTD/?fref=nf" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	<div class="fb-like" data-href="https://www.facebook.com/PhenixIT/?fref=nf" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 </div>
 </div>
 </div>
